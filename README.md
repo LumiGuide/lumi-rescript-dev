@@ -15,7 +15,10 @@ npm install @lumiguide/lumi-rescript-dev --save-dev
 yarn add @lumiguide/lumi-rescript-dev --dev
 ```
 
-Simply run `lumi-rescript-dev build` in your project root. Typically, you'll want to add the following to your `package.json`.
+* Run `lumi-rescript-dev watch` in your project root to start the development server
+* Run `lumi-rescript-dev build` in your project root for a production build
+
+Typically, you'll want to add the following to your `package.json`.
 
 ```json
 {
