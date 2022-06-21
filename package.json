@@ -1,0 +1,37 @@
+{
+  "name": "@lumiguide/lumi-rescript-dev",
+  "version": "1.0.0",
+  "description": "Development server for ReScript with esbuild, file watcher, workbox and more",
+  "keywords": [
+    "ReScript",
+    "development",
+    "server",
+    "watcher",
+    "bundler",
+    "service worker"
+  ],
+  "homepage": "https://github.com/LumiGuide/lumi-rescript-dev",
+  "license": "MIT",
+  "bin": {
+    "lumi-rescript-dev": "index.js"
+  },
+  "repository": "github:LumiGuide/lumi-rescript-dev",
+  "dependencies": {
+    "esbuild": "^0.14.18",
+    "esbuild-sass-plugin": "^2.2.2",
+    "express": "^4.17.1",
+    "fb-watchman": "^2.0.1",
+    "find-yarn-workspace-root": "^2.0.0",
+    "http-proxy-middleware": "^2.0.0",
+    "lockfile": "^1.0.4",
+    "merge-options": "^3.0.4",
+    "morgan": "^1.10.0",
+    "workbox-build": "^6.3.0"
+  },
+  "peerDependencies": {
+    "rescript": "^9.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

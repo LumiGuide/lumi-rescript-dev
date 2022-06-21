@@ -1,0 +1,7 @@
+/.merlin
+/.bsb.lock
+/lib/
+/node_modules/
+/public/bundle/
+/public/sw.js*
+/public/workbox-*.js*
