@@ -9,6 +9,12 @@ This is a utility to build and bundle rescript projects using esbuild.
 
 ## How to use
 
+```sh
+npm install @lumiguide/lumi-rescript-dev --save-dev
+# or
+yarn add @lumiguide/lumi-rescript-dev --dev
+```
+
 Simply run `lumi-rescript-dev build` in your project root. Typically, you'll want to add the following to your `package.json`.
 
 ```json
@@ -53,7 +59,7 @@ The default configuration can be inspected using `lumi-rescript-dev dump-config`
 ## JS API
 Alternatively, if you require more configuration flexibility, the code can be imported from your own code.
 ```js
-const {main, defaultConfig} = require('lumi-rescript-dev')
+const {main, defaultConfig} = require('@lumiguide/lumi-rescript-dev')
 
 main(defaultConfig, {
   root: __dirname
