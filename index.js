@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const path = require('path')
 const util = require('util')
-const lockfile = require('lockfile')
 const child_process = require('child_process')
 const esbuild = require('esbuild')
 const { sassPlugin } = require('esbuild-sass-plugin')
@@ -233,13 +232,6 @@ async function generateServiceWorker(config) {
 }
 
 async function devServer(config) {
-    try {
-        lockfile.lockSync(path.join(config.root, '.bsb.lock'))
-        // Is cleaned up when the process exits
-    } catch (err) {
-        console.error("[lock] error creating .bsb.lock:", err)
-    }
-
     const { notifier } = serve(config)
 
     const wm = new Watchman()

@@ -2,6 +2,8 @@
 
 ## main (unreleased)
 
+- No longer create a `.bsb.lock` lockfile
+  - It conflicts with the usage of ReScript editor extensions.
 - Add `shell.nix`
 - Add `yarn.lock`
 
