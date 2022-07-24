@@ -2,6 +2,8 @@
 
 ## main (unreleased)
 
+## v1.1.0 (2022-07-24)
+
 - No longer create a `.bsb.lock` lockfile
   - It conflicts with the usage of ReScript editor extensions.
 - Add `shell.nix`
