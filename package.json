@@ -1,6 +1,6 @@
 {
   "name": "@lumiguide/lumi-rescript-dev",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Development server for ReScript with esbuild, file watcher, workbox and more",
   "keywords": [
     "ReScript",

@@ -2,6 +2,8 @@
 
 ## main (unreleased)
 
+## v1.2.0 (2022-12-20)
+
 - Update esbuild and esbuild-sass-plugin version
 
 ## v1.1.0 (2022-07-24)
