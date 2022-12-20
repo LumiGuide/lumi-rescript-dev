@@ -17,8 +17,8 @@
   },
   "repository": "github:LumiGuide/lumi-rescript-dev",
   "dependencies": {
-    "esbuild": "^0.14.18",
-    "esbuild-sass-plugin": "^2.2.2",
+    "esbuild": "^0.16.10",
+    "esbuild-sass-plugin": "^2.4.4",
     "express": "^4.17.1",
     "fb-watchman": "^2.0.1",
     "find-yarn-workspace-root": "^2.0.0",

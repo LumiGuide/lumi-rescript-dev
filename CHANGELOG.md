@@ -2,6 +2,8 @@
 
 ## main (unreleased)
 
+- Update esbuild and esbuild-sass-plugin version
+
 ## v1.1.0 (2022-07-24)
 
 - No longer create a `.bsb.lock` lockfile
